@@ -2,14 +2,6 @@ year: 2026
 date: Friday, March 20th 2026
 location: Rochester Institute of Technology 1 Lomb Memorial Drive, Rochester, NY, 14623, United States
 trainers:
-  - &joe
-    name: Joe Gray
-    bio: |
-      Joe Gray is a U.S. Navy Submarine Force veteran, OSINT researcher, and author specializing in social engineering
-      and human centered security. He is the Founder and Principal Instructor at The OSINTion and Blue Team Fusion, and
-      the author of Practical Social Engineering published by No Starch Press. His work focuses on ethical OSINT 
-      methodology, adversary tradecraft, and practical application for defenders, investigators, and security 
-      practitioners.
   - &pavan
     name: Pavan Reddy
     bio: |
@@ -38,52 +30,6 @@ trainers:
       high-stakes operational environments. Today, she builds learning resources designed to help security teams get
       value quickly and operate more effectively with Graylog.
 classes:
-  -   title: 'Netflow and Network Behavior Analytics for Blue Teams'
-      time_frame: '8:00 AM - 12:00 PM'
-      instructors:
-        - *joe
-      description: |
-        Network telemetry is one of the most valuable data sources available to defenders, yet many Blue Team analysts
-        are never taught how to reason about it beyond basic alerts or dashboards. This training focuses on using 
-        Netflow and flow based data to understand network behavior, identify suspicious activity, and support 
-        investigations in a structured and defensible way.
-
-        Participants will learn how to interpret flow records, recognize normal versus abnormal patterns, and use 
-        network behavior to answer investigative questions. Rather than focusing on a specific vendor or tool, the 
-        training emphasizes analytical thinking that can be applied across environments, platforms, and data sources.
-  
-        This course is designed for analysts who want to move beyond surface level indicators and develop confidence in 
-        explaining what network data is actually showing them, both in day to day operations and in interviews or 
-        professional discussions.
-      requirements: Laptop, notetaking tools (software or analog pen and paper)
-      prices:
-        - description: 'General'
-          cost: '$100'
-        - description: 'Student, Vet, or Unemployed'
-          cost: '$60'
-
-  -   title: 'Applied Threat Intelligence: Tracking Adversary Behavior with OSINT and CTI'
-      time_frame: '1:00 PM - 5:00 PM'
-      instructors:
-        - *joe
-      description: |
-        This four hour training is a hands on Cyber Threat Intelligence course focused on analyst execution rather than
-        theory. The goal is to teach participants how to take public adversary reporting and OSINT and turn it into 
-        structured, behavior focused intelligence that supports defensive work.
-
-        After a brief alignment on what OSINT and Cyber Threat Intelligence are, participants spend the majority of the
-        session extracting adversary behaviors from real world reporting. Those behaviors are then structured using the 
-        MITRE ATT&CK Framework, the Diamond Model, and the Pyramid of Pain to understand how an adversary operates and 
-        what matters defensively.
-
-        This course is designed for Blue Team analysts and defenders who want practical experience doing intelligence 
-        work they can apply operationally and explain clearly in interviews and professional discussions.
-      requirements: Laptop with latest version of Ubuntu installed or a laptop that can run a virtual machine with Ubuntu.
-      prices:
-        - description: 'General'
-          cost: '$100'
-        - description: 'Student, Vet, or Unemployed'
-          cost: '$60'
   -   title: 'Breaking AI: Prompt Injection, Data Exfiltration and Practical Defenses That Work'
       time_frame: '8:00AM - 12:00PM'
       instructors:
