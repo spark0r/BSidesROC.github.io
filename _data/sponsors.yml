@@ -71,3 +71,7 @@
   url: www.sans.org
   image: 'SANS_Blue.png'
   level: 4
+- name: Hack the Box
+  url: https://hackthebox.com
+  image: 'HTB-Logo-Black_144.png'
+  level: 4
