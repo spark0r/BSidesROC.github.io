@@ -79,3 +79,7 @@
   url: https://pentesterlab.com/
   image: pentesterlab_logo_text_black.svg
   level: 4
+- name: StickerGiant
+  url: https://www.stickergiant.com
+  image: sticker_giant.png
+  level: 4
