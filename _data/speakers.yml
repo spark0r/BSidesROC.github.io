@@ -143,15 +143,6 @@ talks:
   time_slot: *0900_0950
   presenters:
     - *cassy
-- title: "Keynote"
-  keynote: true
-  include_in_talks: false
-  abstract: "TBD"
-  length: 50 min
-  track: *track2
-  time_slot: *0900_0950
-  presenters:
-    - *cassy
 
 - title: "Lunch"
   keynote: false
