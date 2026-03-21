@@ -75,3 +75,7 @@
   url: https://hackthebox.com
   image: 'HTB-Logo-Black_144.png'
   level: 4
+- name: Pentester Lab
+  url: https://pentesterlab.com/
+  image: pentesterlab_logo_text_black.svg
+  level: 4
